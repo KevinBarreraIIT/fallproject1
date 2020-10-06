@@ -1,6 +1,12 @@
+html {
+  height: 100%;
+}
 body {
     text-align: center;
-    background-color:#8b29a1;
+    overflow: auto;
+    min-height: 100%;
+    background: rgb(131,47,180);
+    background: linear-gradient(180deg, rgba(131,47,180,1) 0%, rgba(0,0,0,1) 100%);
 }
 h1 {
   font-weight: bold;
@@ -8,6 +14,7 @@ h1 {
   color: #ffe15b;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 h2 {
   font-weight: bold;
   font-size: 20pt;
@@ -35,10 +42,16 @@ input[type=submit] {
     width: 80%;
     margin-left: auto;
   }
-  
+ 
 @media only screen and (min-width: 480px) {
+  html {
+    height: 100%;
+  }
   body {
-      background-color: #8b29a1;
+    min-height: 100%;
+    overflow: auto;
+    background: rgb(131,47,180);
+    background: linear-gradient(180deg, rgba(131,47,180,1) 0%, rgba(0,0,0,1) 100%);
     }
   input {
       width: 70%;
@@ -50,8 +63,14 @@ input[type=submit] {
   }
   
 @media only screen and (min-width: 800px) {
+  html {
+    height: 100%;
+  }
   body {
-      background-color: #8b29a1;
+    overflow: auto;
+    min-height: 100%;
+    background: rgb(131,47,180);
+    background: linear-gradient(180deg, rgba(131,47,180,1) 0%, rgba(0,0,0,1) 100%);
     }
   input {
       width: 50%;
