@@ -2,12 +2,14 @@
 html {
   height: 100%;
 }
+
 body {
-    text-align: center;
-    min-height: 100%;
-    background: rgb(131,47,180);
-    background: linear-gradient(180deg, rgba(131,47,180,1) 0%, rgba(0,0,0,1) 100%);
+  text-align: center;
+  min-height: 100%;
+  background: rgb(131, 47, 180);
+  background: linear-gradient(180deg, rgba(131, 47, 180, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
+
 h1 {
   font-weight: bold;
   font-size: 2.25em;
@@ -21,59 +23,61 @@ h2 {
   color: #ffe15b;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 h3 {
   color: #ffffff;
 }
+
 label {
-    color: rgb(255, 255, 255);
-    font-size: 2em;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
 }
 
 input {
-    width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    background-color: #ffffffc5; 
-  }
-  
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #ffffffc5;
+}
+
 input[type=submit] {
-    width: 80%;
-    margin-left: auto;
-  }
- 
+  width: 80%;
+  margin-left: auto;
+}
+
 @media only screen and (min-width: 480px) {
   html {
     height: 100%;
   }
   body {
     min-height: 100%;
-    background: rgb(131,47,180);
-    }
-  input {
-      width: 70%;
-    }
-    input[type=submit] {
-      width: 70%;
-      margin-left: auto;
-    }
+    background: rgb(131, 47, 180);
   }
-  
+  input {
+    width: 70%;
+  }
+  input[type=submit] {
+    width: 70%;
+    margin-left: auto;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   html {
     height: 100%;
   }
   body {
     min-height: 100%;
-    background: rgb(131,47,180);
-    background: linear-gradient(180deg, rgba(131,47,180,1) 0%, rgba(0,0,0,1) 100%);
-    }
-  input {
-      width: 50%;
-     } 
-  input[type=submit] {
-      width: 50%;
-      margin-left: auto;
-    }
+    background: rgb(131, 47, 180);
+    background: linear-gradient(180deg, rgba(131, 47, 180, 1) 0%, rgba(0, 0, 0, 1) 100%);
   }
+  input {
+    width: 50%;
+  }
+  input[type=submit] {
+    width: 50%;
+    margin-left: auto;
+  }
+}
