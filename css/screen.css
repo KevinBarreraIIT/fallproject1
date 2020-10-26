@@ -50,7 +50,6 @@ input[type=submit] {
   body {
     min-height: 100%;
     background: rgb(131,47,180);
-    background: linear-gradient(125deg, rgba(131,47,180,1) 0%, rgba(0,0,0,1) 100%);
     }
   input {
       width: 70%;
@@ -61,7 +60,7 @@ input[type=submit] {
     }
   }
   
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 992px) {
   html {
     height: 100%;
   }
